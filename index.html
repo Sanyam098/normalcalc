@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body class="body">
+    <div class="fullcalc">
+   
+    <div>
+        <div><h3 class="Calculator">Calculator</h3></div> 
+        <textarea name="calculation" id="calarea" rows="6" cols="51"></textarea>
+    </div>
+    <div class="fullarea">
+
+    <div class="numarea">
+        <div class="number"><button  onclick=" appendtoDisplay('7')" class="num">7</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('8')"  class="num">8</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('9')" class="num">9</button></div>
+        <div class="number"><button onclick="Delete()" class="num" id="DEL">DEL</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('4')" class="num">4</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('5')" class="num">5</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('6')"class="num">6</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('+')" class="num">+</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('1')" class="num">1</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('2')" class="num">2</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('3')" class="num">3</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('-')" class="num">-</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('.')"class="num">.</button></div>
+        <div class="number"><button onclick=" appendtoDisplay('0')" class="num">0</button></div>
+        <div class="number"><button  onclick=" appendtoDisplay('/')" class="num">/</button></div>
+        <div class="number"><button  onclick=" appendtoDisplay('*')" class="num">x</button></div>
+        <div class="number"><button  onclick=" clearDisplay()" class="num" id="reset">RESET</button></div>
+        <div class="number"><button   onclick="calculator()"class="num" id="equal">=</button></div>
+    </div>
+         </div>
+        </div>
+        <script src="calculator.js"></script>
+    
+</body>
+</html>

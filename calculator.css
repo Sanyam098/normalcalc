@@ -1,0 +1,71 @@
+
+.body{
+    background-color: #3B4664;
+}
+
+#calarea{
+     margin: 200px;
+     margin-left: 500px;
+     margin-top: 150px;
+    background-color: #00000033;
+}
+.fullarea{
+    background-color: #252D44;
+    width : 390px;
+    height: 315px;
+    margin-top: -180px;
+    margin-left: 500px;
+}
+.numarea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.number{
+     padding: 10px;
+     padding-top: 17px;
+     
+    
+    
+
+}
+
+.num{
+   
+    background-color: #EAE3DB;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000000;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#DEL{
+    background-color: #647299;
+    color: #FFFFFF;
+
+}
+#reset{
+    background-color: #647299;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+#equal{
+    background-color: #D13F30;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right:20px ;
+}
+
+.Calculator{
+    margin-left: 500px;
+ 
+}
+
+
+.fullcalc{
+    margin-bottom:100px;
+}
